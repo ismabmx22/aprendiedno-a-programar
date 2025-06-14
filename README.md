@@ -1,1 +1,1 @@
-# aprendiedno-a-programar
+# aprendiendo-a-programar
