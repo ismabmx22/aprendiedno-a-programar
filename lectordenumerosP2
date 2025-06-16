@@ -1,0 +1,18 @@
+program lectordenumeros;
+var 
+  numero, contador, resultado,mayoresa5: integer;
+begin
+  resultado := 0;  // Inicializamos el acumulador
+  writeln('Hola, ingrese los 10 numeros');
+  mayoresa5:=0;
+  for contador := 1 to 10 do
+  begin
+    readln(numero);
+    if numero>resultado then
+     begin
+     mayoresa5:= contador;
+        resultado := numero;
+        end;
+  end;
+  writeln('El resultado es: ', resultado,'en la posicion ',mayoresa5);
+end.
