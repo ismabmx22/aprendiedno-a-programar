@@ -1,0 +1,20 @@
+begin
+Destacados:=0;
+aprobados:=0;
+  repeat
+  begin
+  writeln ('Hola escriba primero nombre');
+  readln(AlumnosN);
+  writeln('ahora escriba Apellido');
+  readln(Apellido);
+  writeln('ahora escriba la nota');
+  readln(nota);
+  if (nota = 7) then
+  aprobados:=(aprobados+1);
+  if (nota >= 8) then
+  Destacados:=(Destacados+1);
+  end;
+until (AlumnosN='Zidane') and (Apellido='Zinedine') and (nota=nota);
+writeln('los alumnos destacados fuero ',Destacados);
+writeln('los alumnos aprobados fueron  ',aprobados);
+end.
